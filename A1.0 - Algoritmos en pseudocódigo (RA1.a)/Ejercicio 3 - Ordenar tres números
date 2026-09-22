@@ -1,0 +1,26 @@
+Inicio
+Escribe num1
+Lee num1
+Escribe num2
+Lee num2
+Escribe num3
+Lee num3
+// Vamos a encontrar el menor
+Si a <= b y a <= c Entonces
+    menor <- a
+Sino Si b <= a  y b <= c Entonces
+    menor <-b
+Sino 
+    menor  <- c
+Fin Si
+// Vamos a encontrar el mayor
+Si a >= b y  a >= c Entonces
+    mayor <-a 
+Sino Si b >= a y b >= c Entonces
+    mayor <-b
+Sino
+    mayor <-c
+Fin Si
+// Vamos a encontrar el medio ahora (el del medio es la suma de los tres menos el menor y el mayor)
+medio <- a + b + c - menor - mayor
+Fin

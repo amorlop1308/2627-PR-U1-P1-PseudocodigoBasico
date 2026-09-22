@@ -1,0 +1,6 @@
+Inicio
+Escribe num
+Lee num
+Mientras (num < 1 or num > 10)
+Si num > 1 and num < 10
+Fin
