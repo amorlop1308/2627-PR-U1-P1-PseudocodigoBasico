@@ -9,6 +9,6 @@ Inicio
     sino 
         numIni = num1 
         numfin = num2
-Para i en (numIni ... numfin) hacer
-    Escribe i
+    Para i en (numIni ... numfin) hacer
+        Escribe i
 Fin
