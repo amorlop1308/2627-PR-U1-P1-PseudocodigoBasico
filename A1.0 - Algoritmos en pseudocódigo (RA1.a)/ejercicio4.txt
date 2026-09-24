@@ -1,0 +1,16 @@
+Inicio
+    suma = 0
+    cantidad = 0
+
+    Escribe "Introduce un número (0 para terminar): "
+    Lee num
+
+    Mientras num != 0 hacer
+        suma = suma + num
+        cantidad = cantidad + 1
+        Escribe "Introduce un número (0 para terminar): "
+        Lee num
+
+    Escribe "Números introducidos = ", cantidad
+    Escribe "Suma = ", suma
+Fin

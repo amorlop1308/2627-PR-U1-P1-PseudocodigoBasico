@@ -1,0 +1,9 @@
+Inicio
+    Escribe "Introduce un número entre 1 y 10: "
+    Lee num
+    Mientras num < 1 o num > 10 hacer
+        Escribe "¡Inténtalo otra vez!"
+        Escribe "Dime un número (1-10): "
+        Lee num
+    Escribe "¡Correcto!"
+Fin

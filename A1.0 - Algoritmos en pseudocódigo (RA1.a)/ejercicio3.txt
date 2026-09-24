@@ -1,0 +1,29 @@
+Inicio
+    Escribe "Introduce el primer número: "
+    Lee num1
+    Escribe "Introduce el segundo número: "
+    Lee num2
+    Escribe "Introduce el tercer número: "
+    Lee num3
+
+    // Encontrar el menor
+    Si num1 <= num2 y num1 <= num3 entonces
+        menor = num1
+    Sino Si num2 <= num1 y num2 <= num3 entonces
+        menor = num2
+    Sino
+        menor = num3
+
+    // Encontrar el mayor
+    Si num1 >= num2 y num1 >= num3 entonces
+        mayor = num1
+    Sino Si num2 >= num1 y num2 >= num3 entonces
+        mayor = num2
+    Sino
+        mayor = num3
+
+    // El del medio
+    medio = num1 + num2 + num3 - menor - mayor
+
+    Escribe "Números ordenados = ", menor, ", ", medio, ", ", mayor
+Fin

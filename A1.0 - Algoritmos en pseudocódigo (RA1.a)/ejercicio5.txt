@@ -1,0 +1,23 @@
+Inicio
+    numSecreto = Aleatorio(1, 100)
+    intentos = 0
+
+    Escribe "ADIVINA EL NÚMERO ALEATORIO ENTRE 1 Y 100"
+    Escribe "---------------------------------------"
+
+    Escribe "Adivina el número: "
+    Lee num
+    intentos = intentos + 1
+
+    Mientras num != numSecreto hacer
+        Si num > numSecreto entonces
+            Escribe "El número secreto es menor."
+        Sino
+            Escribe "El número secreto es mayor."
+
+        Escribe "Adivina el número: "
+        Lee num
+        intentos = intentos + 1
+
+    Escribe "¡Correcto! Lo has conseguido en ", intentos, " intentos."
+Fin

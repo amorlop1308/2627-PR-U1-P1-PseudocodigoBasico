@@ -1,0 +1,17 @@
+Inicio
+    Escribe "Introduce el primer número: "
+    Lee num1
+    Escribe "Introduce el segundo número: "
+    Lee num2
+
+    Si num1 <= num2 entonces
+        i = num1
+        Mientras i <= num2 hacer
+            Escribe i
+            i = i + 1
+    Sino
+        i = num1
+        Mientras i >= num2 hacer
+            Escribe i
+            i = i - 1
+Fin
